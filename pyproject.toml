@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hhmi"
+version = "0.1.0"
+requires-python = "<=3.10"
+dependencies = [
+    "dagster",
+    "dagster-webserver",
+    "joblib",
+    "numpy",
+    "omero-py",
+    "pandas",
+    "requests",
+]
+
+[tool.setuptools]
+py-modules = ["retrievers"]
+packages = ["dagster_pipeline"]
+
+[tool.dagster]
+module_name = "dagster_pipeline.definitions"
