@@ -1,0 +1,18 @@
+dataset_ID,constituent_files,image_width,image_height,x_resolution,y_resolution,z_resolution,origin,source,image_z
+10740,2,1121,775,0.02,0.02,0.02,,openMicroscopy,
+dataset_ID,constituent_files,image_width,image_height,x_resolution,y_resolution,z_resolution,origin,openMicroscopy,
+10740,2,1121,775,0.02,0.02,0.02,,openMicroscopy,
+11759,16,5628,5632,8.0,8.0,,,empiar,
+training,4,1065,2048,5,5,5,,epfl,165
+testing,4,1065,2048,5,5,5,,epfl,165
+training_groundtruth,4,1065,2048,5,5,5,,epfl,165
+testing_groundtruth,4,1065,2048,5,5,5,,epfl,165
+dataset_ID,constituent_files,image_width,image_height,x_resolution,y_resolution,z_resolution,origin,epfl,image_z
+training,4,1065,2048,5,5,5,,epfl,165
+testing,4,1065,2048,5,5,5,,epfl,165
+training_groundtruth,4,1065,2048,5,5,5,,epfl,165
+testing_groundtruth,4,1065,2048,5,5,5,,epfl,165
+jrc_mus-nacc-2,20,2520,2596,4.0,4.0,2.96,,janelia,564
+dataset_ID,constituent_files,image_width,image_height,x_resolution,y_resolution,z_resolution,origin,janelia,image_z
+jrc_mus-nacc-2,20,2520,2596,4.0,4.0,2.96,,janelia,564
+1,41394,34427,39725,8,8,8,"[4210, 29244, 40275]",hemibrain,41394
